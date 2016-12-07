@@ -1,0 +1,232 @@
+/*
+   ePortfolio
+   Web Dev Final Project
+
+   ePortfolio
+   Author: Lucas Covey
+   Date: December 6th 2016
+
+   Filename: home.css
+   Supporting Files: home.htm, background1.jpg,
+                     default_reset.css
+
+*/
+body {
+  background-color: white;
+  background-image: url(background1.jpg);
+  background-repeat: none;
+  background-position: left top;
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  width: 95%;
+  min-width: 1000px;
+  max-width: 1400px;
+  
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Format the header image to size */
+body header img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  border: 5px solid black;
+  width: 100%;
+  height: 200px;
+}
+
+/* Format horizontal Home Page menu */
+nav.horizontalNAV li {
+  outline: 1px solid black;
+  width: 20%;
+  float: left;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav.horizontalNAV a {
+  text-decoration: none;
+}
+
+nav.horizontalNAV {
+  margin-left: 0.6%;
+  overflow: hidden;
+  background-color: rgb(106, 216, 194);
+  background-color: rgba(106, 216, 194,0.5);
+  border-radius: 7px;
+}
+
+section#about div {
+  margin: 1%;
+  padding: 10px;
+  background-color: rgb(106, 216, 194);  
+  background-color: rgba(106, 216, 194,0.5);
+  border-radius: 7px;
+}
+
+section#about h1 {
+  padding: 1%;
+  font-size: 1.5em;
+}
+
+section#about p:nth-of-type(2) {
+  padding-top: 1%;
+}
+
+section#about p:nth-of-type(3) {
+  padding-top: 1%;
+}
+
+section#goals h1{
+  font-size: 1.5em;
+  padding: 1%;
+}
+
+section#goals article {
+  margin: 1%;
+  padding: 10px;
+  background-color: rgb(106, 216, 194);  
+  background-color: rgba(106, 216, 194,0.5);
+  border-radius: 7px;
+}
+
+section#goals ul {
+  margin-left: 3%;
+  padding: 1%;
+}
+
+section#skills h1{
+  font-size: 1.5em;
+  padding: 1%;
+}
+
+section#skills dl {
+  background-color: rgb(106, 216, 194);  
+  background-color: rgba(106, 216, 194,0.5);
+  padding: 2px;
+  border-radius: 7px;
+}
+
+section#skills dt {
+  padding: 8px;
+  font-weight: bold;
+}
+
+section#skills dd {
+  margin-bottom: 1%;
+  margin-left: 15px;
+}
+
+section#contact h1{
+  font-size: 1.5em;
+  padding: 1%;
+}
+
+section#contact  article{
+  margin: 0.5%;
+  padding: 5px;
+  background-color: rgb(106, 216, 194);  
+  background-color: rgba(106, 216, 194,0.5);
+  border-radius: 7px;
+}
+section#contact article#social {
+  float:left;
+}
+
+section#contact article#house {
+  float: left;
+  clear:left;
+  font-style: italic;
+}
+
+section#contact article#social img#fb {
+  max-width: 2%;
+  max-height: 2%;
+  vertical-align: middle;
+}
+
+section#contact article#social img#li {
+  max-width: 2%;
+  max-height: 2%;
+  vertical-align: middle;
+}
+
+section#resume {
+  background-color: rgb(240,240,240);
+  background-color: rgba(240,240,240,0.8);
+  margin: 2%;
+  padding: 1%;
+  border-radius: 3px;
+}
+
+section#resume header h1 {
+  font-size: 2em;
+  font-family: Georgia, serif;
+  padding: 3px;
+  border-bottom: 3px solid black;
+}
+
+section#resume header h2 {
+  font-family: Georgia, serif;
+  padding: 3px;
+  font-size: 1.2em;
+}
+
+section#resume article {
+  margin-top: 20px;
+}
+
+section#resume article h1 {
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  padding: 5px;
+  border-bottom: 1px solid rgb(106, 216, 194)
+}
+
+section#resume article h2 {
+  font-size:1em;
+  margin-top: 8px;
+}
+
+section#resume article p {
+  padding: 2px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+section#resume article#exp dt {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+section#resume article#exp dd {
+  margin-left: 20px;
+  margin-top: 3px;
+  font-style: italic;
+}
+/* Format footer to stay bottom of page */
+footer address {
+  text-align: center;
+  display: block;
+  width: 97%;
+  float: left;
+  clear: left;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-top: 5px solid rgb(106, 216, 194);
+  border-bottom: 5px solid rgb(106, 216, 194);
+  font-size: 1.3em;
+  font-style: italic;
+}

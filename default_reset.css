@@ -1,0 +1,30 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 4
+
+   Park City Gazette Reset Styles Sheet
+   Author: Lucas Covey
+   Date:  November 3rd 2016
+
+   Filename: default_reset.css
+   Supporting Files: default.htm
+
+*/
+
+section, article, header, footer, nav, figure, figcaption {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 105%;
+  font-weight: none;
+  line-height: 1em;
+  vertical-align: baseline;
+}
